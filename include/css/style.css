@@ -1,0 +1,123 @@
+/* estilos del ahorcado */
+
+/* principales */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #f3f5fc;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6em;
+}
+
+/* contenedores */
+header{
+  margin: 2.5em 0em 0em 2.5em;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 6em 0em;
+}
+
+.inicial{
+  text-align: center;
+  margin: 5em 0em 0em 0em;
+}
+
+.nuepal{
+  text-align: center;
+  margin: 5em 1.6em;
+  display: none;
+}
+
+.dvinfo{
+  text-align: left;
+}
+
+/* botones */
+.botonsaz{
+  border: 0.06em solid #0a3871;
+  border-radius: 1em;
+  background-color: #0a3871;
+  font-size: 1em;
+  color: #ffffff;
+  margin: 1em;
+  padding: 1.5em;
+}
+
+.botonsaz:focus{
+  background-color: #072b61;
+}
+
+.botonsbl{
+  border: 0.06em solid #0a3871;
+  border-radius: 1em;
+  background-color: #ffffff;
+  font-size: 1em;
+  color: #0a3871;
+  padding: 1.5em;
+}
+
+.botonsbl:focus{
+  background-color: #eff1fa;
+}
+
+/* formulario */
+.cingpal{
+  width: 100%;
+  background-color: #f3f5fc;
+  border: 0px;
+  font-size: 1.5em;
+  color: #0A3871;
+  margin: 0em 0em 0.5em 0em;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.cingpal{
+  border-color: #f3f5fc;
+}
+
+/* partida */
+.dvdbah{
+  width: 100%;
+  margin: 0em 0em 2em 0em;
+}
+
+.stimga{
+  max-height: 15em;
+}
+
+.dvpaad{
+  margin: 0em 0em 3em 0em;
+}
+
+.spse{
+  font-size: 6em;
+  color: #072b61;
+  text-decoration: underline;
+  margin: 0em 0em 0em 0.2em;
+}
+
+.dvpafa{
+  margin: 0em 0em 2em 0em;
+}
+
+.spsf{
+  font-size: 2em;
+  color: #495057;
+  margin: 0em 0em 0em 0.5em;
+}
+
+/* adaptativos */
+@media screen and (min-width:940px){
+
+  .cingpal{
+    font-size: 2em;
+  }
+}
