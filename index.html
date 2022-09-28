@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juego del ahorcado</title>
+  <link rel="shortcut icon" href="include/imagenes/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="include/css/reset.css">
+  <link rel="stylesheet" href="include/css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href=""><img src="include/imagenes/logo.png" alt="Logotipo"></a>
+  </header>
+
+  <main>
+
+    <section class="inicial" id="divinic">
+      <input type="button" class="botonsaz" id="bot-inici" value="Iniciar juego">
+      <input type="button" class="botonsbl" id="bot-agrep" value="Agregar nueva Palabra">
+    </section>
+
+    <section class="nuepal" id="divnupu">
+      <form action="">
+        <input type="text" class="cingpal" maxlength="8" placeholder="Ingrese una palabra">
+      </form>
+      <div class="dvinfo"><img src="include/imagenes/info.png" alt="Información"> Máx. de 8 letras</div>
+      <div>
+        <input type="button" class="botonsaz" id="" value="Guardar y empezar">
+        <input type="button" class="botonsbl" id="bot-cannp" value="Cancelar">
+      </div>
+    </section>
+
+    <section class="nuepal" id="divjueg">
+      <div class="dvdbah">
+        <img src="include/imagenes/fase1.png" class="stimga">
+      </div>
+      <div class="dvpaad" id="drlpaba">
+        <!-- para imprimir palabla -->
+      </div>
+      <div class="dvpafa" id="drltecl">
+        <!-- para imprimir letras -->
+      </div>
+      <div>
+        <input type="button" class="botonsaz" id="" value="Nuevo juego">
+        <input type="button" class="botonsbl" id="" value="Desistir">
+      </div>
+    </section>
+
+    
+
+    <!--
+    <section class="">
+      <input type="button" class="botonsaz" value="Iniciar juego">
+      <input type="button" class="botonsbl" value="Agregar nueva Palabra">
+    </section>
+    -->
+    <!--
+    <section class="">
+     <img src="include/imagenes/info.png" alt="Información"> Máx. de 8 letras
+    </section>
+    -->
+
+  </main>
+
+  <footer>
+    &copy;2022 Copyright | Charli Campos Rodríguez
+  </footer>
+
+  <!-- incluyendo scripts -->
+  <script src="include/js/scripts.js"></script>
+    
+</body>
+</html>
